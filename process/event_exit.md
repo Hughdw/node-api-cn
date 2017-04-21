@@ -2,8 +2,7 @@
 added: v0.1.7
 -->
 
-The `'exit'` event is emitted when the Node.js process is about to exit as a
-result of either:
+当 Node.js 进程即将退出时，会发射 `'exit'` 事件：
 
 * The `process.exit()` method being called explicitly;
 * The Node.js event loop no longer having any additional work to perform.
